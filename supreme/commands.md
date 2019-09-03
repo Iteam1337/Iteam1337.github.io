@@ -83,10 +83,12 @@ Create a ReasonReact app using `bsb`, from `bs-platform`, and customize the app 
 ### Included
 
 - ReasonReact
-- Test using `bs-jest`
-- Travis CI configuration
+- Test using [`jest`](https://jestjs.io/) and
+  [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+- [Tailwind](https://travis-ci.com/) styling
+- [Travis CI](https://travis-ci.com/) configuration
 - Automatic versioning using `semantic-release`
-- Now build (opt-in)
+- [Now](https://zeit.co/) build (opt-in)
 
 ### Example
 
