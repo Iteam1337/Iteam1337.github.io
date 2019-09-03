@@ -2,7 +2,7 @@
 
 Create a ReasonReact app using `bsb`, from `bs-platform`, and customize the app with our preferred defaults.
 
-**Note:** To use this command you will need BuckleScript and Reason which can be installed using `npm i -g bs-platform`.
+!> To use this command you will need BuckleScript and Reason, `npm i -g bs-platform`
 
 ## Included
 

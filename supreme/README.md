@@ -1,12 +1,12 @@
-## Installation
+# Installation
 
-```bash
+```sh
 npx @iteam/supreme
 ```
 
-or
+## Install globally
 
-```bash
+```sh
 npm install -g @iteam/supreme
 ```
 
