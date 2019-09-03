@@ -1,12 +1,10 @@
 - Supreme
 
-  - Getting started
+  - [Gettings started](supreme.md)
+  - [Commands](/supreme/commands.md)
 
-    - [Installation](supreme.md)
+- Hooks
 
-  - Commands
+  - [Getting started](hooks.md)
+  - [Available Hooks](/hooks/available-hooks.md)
 
-    - [init](/supreme/init.md)
-    - [add](/supreme/add.md)
-    - [react](/supreme/react.md)
-    - [reason](/supreme/reason.md)
