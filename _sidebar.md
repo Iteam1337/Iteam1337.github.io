@@ -6,5 +6,5 @@
 - Hooks
 
   - [Getting started](hooks.md)
-  - [Available Hooks](/hooks/available-hooks.md)
+  - [Available hooks](/hooks/available-hooks.md)
 
