@@ -70,9 +70,9 @@ Create a React app using `create-react-app` with the provided name.
 $ supreme react my-awesome-app
 ```
 
-### Supported flags
+### Flags
 
-- `--typescript` - create a Typescript React app
+- `--typescript` (optional) - create a Typescript React app
 
 ## reason
 
@@ -94,4 +94,24 @@ Create a ReasonReact app using `bsb`, from `bs-platform`, and customize the app 
 
 ```sh
 $ supreme reason my-awesome-app
+```
+
+## snippets
+
+Copy a bunch of commonly used snippets to the clipboard
+
+| IDE | Language   | Snippet engine                                   | IDE flag | Language flag    |
+| --- | ---------- | ------------------------------------------------ | -------- | ---------------- |
+| vim | TypeScript | [UltiSnips](https://github.com/SirVer/ultisnips) | vim      | ts, typescript   |
+| vim | ReasonML   | [UltiSnips](https://github.com/SirVer/ultisnips) | vim      | reason, reasonml |
+
+### Flags
+
+- `--ide` (required) - What IDE to copy snippets for
+- `--language` (required) - What language to copy snippets for
+
+### Example
+
+```sh
+$ supreme snippets --ide=vim --language=ts
 ```
