@@ -1,6 +1,6 @@
 - Supreme
 
-  - [Gettings started](supreme.md)
+  - [Getting started](supreme.md)
   - [Commands](/supreme/commands.md)
 
 - Hooks
