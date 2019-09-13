@@ -2,18 +2,18 @@
 
 ## init
 
-- Creates a base setup for [`@iteam/config`](https://github.com/Iteam1337/config).
-- Initializes an empty repository and creates a `.gitignore` with some standard
+- Create a base setup for [`@iteam/config`](https://github.com/Iteam1337/config).
+- Initialize an empty repository and creates a `.gitignore` with some standard
   values.
-- Installs [`husky`](https://github.com/typicode/husky), a tool for git hooks, and setup
+- Install [`husky`](https://github.com/typicode/husky), a tool for git hooks, and setup
   it up with [`pretty-quick`](https://github.com/azz/pretty-quick) that runs
   `prettier` on staged files.
 - Create `jest.config.js` and install [`jest`](https://jestjs.io/)
 - Create a `.nvmrc` wih the users current node version
-- Installs [`prettier`](https://prettier.io/), a tool that formats JavaScript, and
+- Install [`prettier`](https://prettier.io/), a tool that formats JavaScript, and
   creates our preferred configuration.
 
-### Example
+#### Example
 
 ```sh
 $ supreme init
@@ -28,16 +28,21 @@ working directory.
 
 #### config
 
-Creates a base setup for [`@iteam/config`](https://github.com/Iteam1337/config).
+Create a base setup for [`@iteam/config`](https://github.com/Iteam1337/config)
+with TypeScript.
+
+##### Flags
+
+- `--javascript` (optional) - create a config with JavaScript
 
 #### gitignore / git
 
-Initializes an empty repository and creates a `.gitignore` with some standard
+Initialize an empty repository and creates a `.gitignore` with some standard
 values.
 
 #### husky
 
-Installs [`husky`](https://github.com/typicode/husky), a tool for git hooks, and setup
+Install [`husky`](https://github.com/typicode/husky), a tool for git hooks, and setup
 it up with [`pretty-quick`](https://github.com/azz/pretty-quick) that runs
 `prettier` on staged files.
 
@@ -51,10 +56,10 @@ Create a `.nvmrc` wih the users current node version
 
 #### prettier
 
-Installs [`prettier`](https://prettier.io/), a tool that formats JavaScript, and
+Install [`prettier`](https://prettier.io/), a tool that formats JavaScript, and
 creates our preferred configuration.
 
-### Example
+#### Example
 
 ```sh
 $ supreme add git
@@ -62,17 +67,17 @@ $ supreme add git
 
 ## react
 
-Create a React app using `create-react-app` with the provided name.
+Create a TypeScript React app using `create-react-app` with the provided name.
 
-### Example
+#### Example
 
 ```sh
 $ supreme react my-awesome-app
 ```
 
-### Flags
+#### Flags
 
-- `--typescript` (optional) - create a Typescript React app
+- `--javascript` (optional) - create a JavaScript React app
 
 ## reason
 
@@ -80,7 +85,7 @@ Create a ReasonReact app using `bsb`, from `bs-platform`, and customize the app 
 
 !> To use this command you will need BuckleScript and Reason, `npm i -g bs-platform`
 
-### Included
+#### Included
 
 - ReasonReact
 - Test using [`jest`](https://jestjs.io/) and
@@ -90,7 +95,7 @@ Create a ReasonReact app using `bsb`, from `bs-platform`, and customize the app 
 - Automatic versioning using `semantic-release`
 - [Now](https://zeit.co/) build (opt-in)
 
-### Example
+#### Example
 
 ```sh
 $ supreme reason my-awesome-app
@@ -105,12 +110,12 @@ Copy a bunch of commonly used snippets to the clipboard
 | vim | TypeScript | [UltiSnips](https://github.com/SirVer/ultisnips) | vim      | ts, typescript   |
 | vim | ReasonML   | [UltiSnips](https://github.com/SirVer/ultisnips) | vim      | reason, reasonml |
 
-### Flags
+#### Flags
 
 - `--ide` (required) - What IDE to copy snippets for
 - `--language` (required) - What language to copy snippets for
 
-### Example
+#### Example
 
 ```sh
 $ supreme snippets --ide=vim --language=ts
