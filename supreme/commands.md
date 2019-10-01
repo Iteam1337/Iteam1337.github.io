@@ -127,6 +127,10 @@ $ supreme snippets --ide=vim --language=ts
 Create a simple GraphQL API with TypeScript. Includes some setup from `init`,
 like `prettier`, `husky`, `nvmrc` and `gitignore`.
 
+#### Flags
+
+- `--examples` - Generate examples for query, mutation and subscription. Example queries are provided in the GraphQL Playground when API is started.
+
 #### Example
 
 ```sh
