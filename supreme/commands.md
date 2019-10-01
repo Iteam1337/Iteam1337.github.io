@@ -121,3 +121,14 @@ Copy a bunch of commonly used snippets to the clipboard
 ```sh
 $ supreme snippets --ide=vim --language=ts
 ```
+
+## graphql
+
+Create a simple GraphQL API with TypeScript. Includes some setup from `init`,
+like `prettier`, `husky`, `nvmrc` and `gitignore`.
+
+#### Example
+
+```sh
+$ supreme graphql my-great-graphql-api
+```
