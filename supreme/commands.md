@@ -12,6 +12,7 @@
 - Create a `.nvmrc` wih the users current node version
 - Install [`prettier`](https://prettier.io/), a tool that formats JavaScript, and
   creates our preferred configuration.
+- Install `eslint` and create config for Node or React
 
 #### Example
 
@@ -34,6 +35,16 @@ with TypeScript.
 ##### Flags
 
 - `--javascript` (optional) - create a config with JavaScript
+
+#### eslint
+
+Install `eslint` and create a config based on which flag is set. If no flag is
+passed, only install `eslint`.
+
+##### Flags
+
+- `--node` (optional) - create a config with [`@iteam/eslint-config-node`](https://github.com/Iteam1337/eslint-config-node)
+- `--react` (optional) - create a config with [`@iteam/eslint-config-react`](https://github.com/Iteam1337/eslint-config-react/)
 
 #### gitignore / git
 
