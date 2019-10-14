@@ -136,7 +136,7 @@ $ supreme snippets --ide=vim --language=ts
 ## graphql
 
 Create a simple GraphQL API with TypeScript. Includes some setup from `init`,
-like `prettier`, `husky`, `nvmrc` and `gitignore`.
+like `prettier`, `husky`, `nvmrc`, `gitignore` and `.eslint`.
 
 #### Flags
 
@@ -158,4 +158,15 @@ branch.
 
 ```sh
 $ supreme ghactions
+```
+
+## typescript
+
+Create a super basic TypeScript app. Includes some setup from `init`,
+like `prettier`, `husky`, `nvmrc`, `gitignore` and `.eslint`.
+
+#### Example
+
+```sh
+$ supreme typescript my-basic-typescript-app
 ```
