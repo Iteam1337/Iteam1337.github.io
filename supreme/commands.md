@@ -147,3 +147,15 @@ like `prettier`, `husky`, `nvmrc` and `gitignore`.
 ```sh
 $ supreme graphql my-great-graphql-api
 ```
+
+## ghactions
+
+Create GitHub actions. One that runs tests and linting on pull requests targeting the master
+branch and one that runs tests and publishes a new release on push to the master
+branch.
+
+#### Example
+
+```sh
+$ supreme ghactions
+```
