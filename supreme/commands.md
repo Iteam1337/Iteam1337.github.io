@@ -169,15 +169,18 @@ Environment variables are set inside `github repository settings -> secrets`.
 Update the `.releaserc` to the following to disable `npm` builds. This will only
 create a release tag and update `CHANGELOG.md` in GitHub.
 
-```
+```json
 {
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    ["@semantic-release/npm", {
-      "npmPublish": false
-    }],
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
     "@semantic-release/git"
   ]
 }
