@@ -121,6 +121,7 @@ Copy a bunch of commonly used snippets to the clipboard
 | vim, neovim | JavaScript | [UltiSnips](https://github.com/SirVer/ultisnips) | vim      | js, javascript   |
 | vim, neovim | TypeScript | [UltiSnips](https://github.com/SirVer/ultisnips) | vim      | ts, typescript   |
 | vim, neovim | ReasonML   | [UltiSnips](https://github.com/SirVer/ultisnips) | vim      | reason, reasonml |
+| VSCode      | ReasonML   | -                                                | vscode   | reason, reasonml |
 
 #### Flags
 
