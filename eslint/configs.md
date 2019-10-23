@@ -33,6 +33,12 @@ Then add the `@iteam/eslint-config-node` in your `.eslintrc`
 npm install --save-dev @iteam/eslint-config-react
 ```
 
+or use [`supreme`](https://github.com/Iteam1337/supreme)
+
+```
+npx @iteam/supreme add eslint --react
+```
+
 Then add the `@iteam/eslint-config-react` in your `.eslintrc`
 
 ```
