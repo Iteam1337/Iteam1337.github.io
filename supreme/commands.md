@@ -94,7 +94,11 @@ $ supreme react my-awesome-app
 
 Create a ReasonReact app using `bsb`, from `bs-platform`, and customize the app with our preferred defaults.
 
-!> To use this command you will need BuckleScript and Reason, `npm i -g bs-platform`
+!> To use this command you will need BuckleScript and Reason, `npm i -g bs-platform@5`
+
+!> When running this command on BuckleScript version > 5, the process will hang
+because the starter template has been completely changed. Version 6 and 7 of
+BuckleScript are in the works, but not all third-party libraries support it yet.
 
 #### Included
 
