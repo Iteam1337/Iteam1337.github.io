@@ -155,6 +155,11 @@ Create GitHub actions configuration files.
 - `pr_check.yml` - Runs tests and linting on pull requests targeting `master`
 - `release.yml` - Runs tests and publishes a new release on push to `master`
 
+#### Flags
+
+- `--no-npm` - Generates a `.releaserc` with `@semantic-release/npm` turned off and
+  removes `NPM_TOKEN` secret from `release.yml`
+
 #### Environment variables
 
 Environment variables are set inside `github repository settings -> secrets`.
@@ -162,28 +167,6 @@ Environment variables are set inside `github repository settings -> secrets`.
 - `NPM_TOKEN` (optional) - If you wish to publish the package/app to `npm`. If you don't
   want to build to `npm` then read below.
 - `GITHUB_TOKEN` - Added automatically by GitHub for each repo
-
-#### Skip npm release
-
-Update the `.releaserc` to the following to disable `npm` builds. This will only
-create a release tag and update `CHANGELOG.md` in GitHub.
-
-```json
-{
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
-      }
-    ],
-    "@semantic-release/git"
-  ]
-}
-```
 
 #### Example
 
