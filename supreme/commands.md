@@ -141,6 +141,7 @@ like `prettier`, `husky`, `nvmrc`, `gitignore` and `.eslint`.
 #### Flags
 
 - `--examples` - Generate examples for query, mutation and subscription. Example queries are provided in the GraphQL Playground when API is started.
+- `--auth` - Adds schema directives for JWT-based authentication/authorization and role based strategy patterns.
 
 #### Example
 
